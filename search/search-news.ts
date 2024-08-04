@@ -107,6 +107,7 @@ export async function searchNews(query: string, options?: NewsSearchOptions): Pr
       image: article.image,
       relativeTime: article.relative_time,
       syndicate: article.syndicate,
+      source: article.source,
       title: decode(article.title),
       url: article.url,
       isOld: !!article.is_old
